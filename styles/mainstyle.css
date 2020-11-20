@@ -24,6 +24,11 @@ button:hover {
 
 form {   
   border: 3px solid #f1f1f1;   
+  align-self: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
 }   
 
 input[type=text], input[type=password] {   
@@ -35,10 +40,3 @@ input[type=text], input[type=password] {
   box-sizing: border-box;   
 }  
 
-.box{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background-color: lightblue;
-  
-}
