@@ -19,13 +19,13 @@ button:hover {
 
 .container {
   padding: 16px;
-  max-width: 50%;
-  align-self: center;
+  width: 60%;
+  /* align-self: center; */
 }
 
 form {   
   border: 3px solid #f1f1f1;     
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: lightblue;
@@ -45,7 +45,22 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
   justify-content: center;
   align-items: center;
+
+}
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginline {
+  display: flex;
+  flex-direction: column;
+  align-items:  flex-end;
+}
+
+.logintext {
+  padding: 3px;
 }
