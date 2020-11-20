@@ -42,9 +42,11 @@ input[type=text], input[type=password] {
   border: 2px solid green;   
   box-sizing: border-box;   
 }  
-
-.body{
+body {
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
   justify-content: center;
   align-items: center;
 }
