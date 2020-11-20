@@ -40,3 +40,10 @@ input[type=text], input[type=password] {
   border: 2px solid green;   
   box-sizing: border-box;   
 }  
+
+.box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
