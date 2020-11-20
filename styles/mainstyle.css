@@ -30,7 +30,7 @@ form {
   justify-content: center;
   align-items: center;
   background-color: lightblue;
-  width: 400px;
+  width: 800px;
   height: 400px;
 }   
 
@@ -43,3 +43,8 @@ input[type=text], input[type=password] {
   box-sizing: border-box;   
 }  
 
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
