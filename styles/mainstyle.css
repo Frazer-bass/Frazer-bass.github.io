@@ -20,11 +20,11 @@ button:hover {
 .container {
   padding: 16px;
   max-width: 50%;
+  align-self: center;
 }
 
 form {   
-  border: 3px solid #f1f1f1;   
-  align-self: center;
+  border: 3px solid #f1f1f1;     
   display:flex;
   justify-content: center;
   align-items: center;
