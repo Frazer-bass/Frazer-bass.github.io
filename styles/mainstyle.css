@@ -25,9 +25,59 @@
 
 h1 {
   text-align: center;
-  padding: 50px;
-  color: white;
+  position: absolute;
+  left: 44%;
+  top: 15px;
+  font-size: 50px;
+}
+.title {
+  color: white; 
+  margin: auto auto;
+  width: 50%; 
+  
+}
+.topbar {
+  display: flex;
   background-color: black;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  height: 120px;
+}
+
+.sidebar {
+  display: flex;
+  margin: 5px;
+  align-items: flex-end;
+  padding-bottom: 0px;
+}
+.search {
+  right: 15%;
+  top: 45%;
+  margin-bottom: 10px;
+}
+
+.icons {
+  right: 6%;
+  top: 45%;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .sidebar {
+    flex-direction: column;
+  }
+}
+
+input[type=text] {   
+  margin: 5px;  
+  padding: 10px 10px;   
+  display: inline-block;   
+  border: 2px solid green;   
+  box-sizing: border-box; 
+}  
+
+body {
   margin: 0px;
-  font-size: 48px;
 }
