@@ -2,7 +2,7 @@
 button{
   background-color: #4CAF50;   
   width: 100%;  
-  color: orange;   
+  color: black; 
   padding: 15px;   
   margin: 10px 0px;   
   border: none;   
@@ -24,11 +24,11 @@ button:hover {
 }
 
 form {   
-  border: 3px solid #f1f1f1;     
+  border: 3px solid black;     
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+
   width: 700px;
   height: 300px;
 }   
@@ -74,3 +74,4 @@ label {
 .logintext {
   padding: 3px;
 }
+
