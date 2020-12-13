@@ -2,9 +2,10 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/mainstyle.css">
-
+<!--Header always for the main navigation bar, search bar and cart-->
 <head>
     <div class="topbar">
+        <a href="home.html" class="shoeimage"><img src="images\running-shoe-icon.jpg" alt="unknown" style="width:90px; margin: 10px;"></a>
         <div class="title">
             <h1>Future Shoe</h1>
         </div>
@@ -13,24 +14,24 @@
                 <input type="text" placeholder="Search" name="search">
             </div>
             <div class="icons">
-                <a href="test"><img src="images/search.png" alt="search"
+                <a href="pagedoesntexists.html"><img src="images/search.png" alt="search"
                         style="width:39px;height:39px;padding-right: 40px;border: none;"></a>
-                <a href="test"><img src="images/cart.png" alt="cart"
+                <a href="checkout.html"><img src="images/cart.png" alt="cart"
                         style="width:39px;height:39px;padding-right: 40px;border: none;"></a>
             </div>
         </div>
     </div>
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">Shoe Range</a>
-        <a href="#contact">Featured Deals</a>
-        <a href="#about">About Us</a>
-        <a href="#news">Help</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#about">My Account</a>
+        <a href="home.html">Home</a>
+        <a href="shoenavigation.html">Shoe Range</a>
+        <a href="shoenavigation.html">Featured Deals</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="pagedoesntexists.html">Help</a>
+        <a href="pagedoesntexists.html">Contact Us</a>
+        <a href="pagedoesntexists.html">My Account</a>
     </div>
 </head>
-
+<!--Checkout page-->
 <body>
     <div class="checkoutPage">
         <div class="checkout">
@@ -51,10 +52,10 @@
                     </div>
                 </div>
                 <div class="checkoutItem">
-                    <div class="item"><a href="shoeimage" class="shoeimage"><img src="images/unknown.png" alt="unknown"
+                    <div class="item"><a href="images/unknown.png" class="shoeimage"><img src="images/unknown.png" alt="unknown"
                                 style="width:100px;"></a></div>
                     <div class="item">
-                        <p>Nike abc Size 11 Black</p>
+                        <p>Future Shoe - Shoe 1 Size 11 Black</p>
                     </div>
                     <div class="item">
                         <p>1</p>
@@ -64,10 +65,10 @@
                     </div>
                 </div>
                 <div class="checkoutItem">
-                    <div class="item"><a href="shoeimage" class="shoeimage"><img src="images/unknown.png" alt="unknown"
+                    <div class="item"><a href="images/unknown.png" class="shoeimage"><img src="images/unknown.png" alt="unknown"
                                 style="width:100px;"></a></div>
                     <div class="item">
-                        <p>Nike abc Size 11 Black</p>
+                        <p>Future Shoe - Shoe 1 Size 11 Black</p>
                     </div>
                     <div class="item">
                         <p>1</p>
@@ -81,7 +82,9 @@
                 </div>
             </div>
             <div class="checkoutButtonClass">
+                <form action ="tracking.html">
                 <button type="checkoutButton" class="checkoutButton">Checkout</button>
+            </form>
             </div>
         </div>
         <div class="savedDetails">

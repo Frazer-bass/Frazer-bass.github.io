@@ -2,9 +2,13 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/mainstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Header always for the main navigation bar, search bar and cart-->
 
 <head>
     <div class="topbar">
+        <a href="home.html" class="shoeimage"><img src="images\running-shoe-icon.jpg" alt="unknown"
+                style="width:90px; margin: 10px;"></a>
         <div class="title">
             <h1>Future Shoe</h1>
         </div>
@@ -13,23 +17,24 @@
                 <input type="text" placeholder="Search" name="search">
             </div>
             <div class="icons">
-                <a href="test"><img src="images/search.png" alt="search"
-                        style="width:39px;height:39px;padding-right: 40px;"></a>
-                <a href="test"><img src="images/cart.png" alt="cart"
-                        style="width:39px;height:39px;padding-right: 40px;"></a>
+                <a href="pagedoesntexists.html"><img src="images/search.png" alt="search"
+                        style="width:39px;height:39px;padding-right: 40px;border: none;"></a>
+                <a href="checkout.html"><img src="images/cart.png" alt="cart"
+                        style="width:39px;height:39px;padding-right: 40px;border: none;"></a>
             </div>
         </div>
     </div>
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">Shoe Range</a>
-        <a href="#contact">Featured Deals</a>
-        <a href="#about">About Us</a>
-        <a href="#news">Help</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#about">My Account</a>
+        <a href="home.html">Home</a>
+        <a href="shoenavigation.html">Shoe Range</a>
+        <a href="shoenavigation.html">Featured Deals</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="pagedoesntexists.html">Help</a>
+        <a href="pagedoesntexists.html">Contact Us</a>
+        <a href="pagedoesntexists.html">My Account</a>
     </div>
 </head>
+<!--Seperator to seperate the filters with the shoe itself on the right side of the screen-->
 
 <body>
     <div class="seperator">
@@ -83,6 +88,7 @@
             </div>
             <button type="applyButton" class="applyButton">Apply</button>
         </div>
+        <!--The main shoe page containing the selected shoe and the details & prices etc.-->
         <div class="mainshoepage">
             <div class="shoenavigationheading">
                 <div class="container">
@@ -100,29 +106,60 @@
                     </select>
                 </div>
             </div>
-			
-	<img src="images/unknown.png" width="250" height="250"
-		<img style= "border:0.5px;
-		border-style:solid;
-		border-color:black;
-		padding: 1em;
-		position: absolute;
-		left: 30%;
-		top: 50%;"/img>
+            <div class="individualShoe">
+                <div class="shoeImage">
+                    <a href="images/unknown.png" class="shoeimage"><img src="images/unknown.png" alt="unknown"
+                            style="width:500px; margin: 25px;"></a>
+                    <div class="button">
+                        <button>Red</button>
+                        <button>White</button>
+                        <button>Black</button>
+                        <button>Navy</button>
+                    </div>
+                </div>
+                <div class="shoeDetails">
+                    <div>
+                        <h2>Future Shoe - Shoe #1</h2>
+                    </div>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div>
+                        <p>The luxurious Future Shoe original!
+                            Available in multiple different colours
+                        </p>
+                    </div>
+                    <div class="size">
+                        <label>Choose a Size</label>
+                        <select id="myList">
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <input type="text" id="quantity" name="quantity">
+                    </div>
+                    <div class="price">
+                        <h2>£180</h2>
+                    </div>
+                    <div class="addToCart">
+                        <form action="shoepage.html">
+                            <button type="applyButton" class="applyButton">Add To Cart</button></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+</body>
 
-	</img>
-	
-	<div class = "button">
-	
-		<button>Red</button>
-		<button>White</button>
-		<button>Black</button>
-		<button>Navy</button>
-		
-	<div style= "border:0px;
-		border-style:solid;
-		border-color:black;
-		padding: 1em;
-		right: 5%;
-		top: 80%;"div>
-	</div>
+</html>
